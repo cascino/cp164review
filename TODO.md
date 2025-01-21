@@ -1,1 +1,2 @@
 - [ ] review structure with team
+- [ ] assign roles and each TODO.md
