@@ -1,6 +1,6 @@
 # cp164review
 ___
-For newcoming dev team, please refer (here)[https://github.com/cascino/cp164review/blob/main/READFIRST.md] for setup information.
+For newcoming dev team, please refer [here](https://github.com/cascino/cp164review/blob/main/READFIRST.md) for setup information.
 
 cp164 is a course that offers a gentle introduction to data structures and their uses. Sample topics include link and array based structures, recursion, and rudimentary complexity analysis.  
 
