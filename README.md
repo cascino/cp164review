@@ -1,13 +1,10 @@
 # cp164review
 ___
-```python
-hello world!
-```
+For newcoming dev team, please refer (here)[https://github.com/cascino/cp164review/blob/main/READFIRST.md] for setup information.
 
 cp164 is a course that offers a gentle introduction to data structures and their uses. Sample topics include link and array based structures, recursion, and rudimentary complexity analysis.  
 
 This repository is split into `material`, and `practice` folder structure for `material` is as shown below
-
 ```
 .
 └── material/
