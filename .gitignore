@@ -1,0 +1,10 @@
+.DS_Store
+.txt
+__pycache__/
+*.py[cod]
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.cache
+.coverage
+
