@@ -1,5 +1,3 @@
-
-___
 The queue ADT supports several methods, notably `push`, `pop`, and `peek`, all in $O(1)$ time complexity. A (relatively) low level implementation of a queue can be done using an array. The following is an (faulty) example of one. Can you spot the issue?
 
 
@@ -27,8 +25,6 @@ class Queue_array():
 
 While functionally, the `Queue_array` class works as expected, this implementation does not achieve the desired time complexity as described in the ADT.
 
-
-> [!NOTE] Try it!
 > Test the differences between the implementations using the `time` library and a large input size $(>10^7)$
 
 Trade offs are particularly common in data structures. For example, the `list` data structure in python accomplishes $O(1)$ appending, popping, and indexing, it loses out under the hood because it must be dynamically sized and incurs more cost overhead.
@@ -66,7 +62,6 @@ class Queue_array():
 
 There is another issue here. Can you spot it? 
 
-> [!NOTE] Try it!
 > Test the differences between the implementations using the `tracemalloc` library and a large input size $(>10^7)$. 
 
 While we have achieved the desired time complexity, we retain useless information about the queue. Since `front` is monotonically increasing, we never need, nor can access the data that is in front of this index. We can fix this by using a circular buffer.
@@ -111,4 +106,3 @@ class Circular_Queue():
 ```
 
 This implementation achieves the desired time and space complexities, at the cost of having to manage the circular buffer.
-
