@@ -1,6 +1,3 @@
-
-___
-
 The stack ADT supports several methods, notably `push`, `pop`, and `peek`, all in $O(1)$ time complexity. A (relatively) low level implementation of a stack can be done using an array. The following is an example of one with a fixed capacity.
 
 ```python
@@ -73,7 +70,6 @@ class Stack_array():
 Stacks are often used in conjunction with other data structures or algorithms, such as in the implementation of a depth-first search (DFS) algorithm (not formally introduced in lecture). 
 
 # examples
-___
 
 ## Balanced Parentheses
 Given a string of parentheses, determine if the parentheses are balanced. For example, the string `"(())"` is balanced, while the string `"(()"` is not. 
