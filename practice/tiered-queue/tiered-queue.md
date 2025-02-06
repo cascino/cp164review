@@ -14,7 +14,7 @@ You must support the following operations:
 Note that in python, classes can have multiple methods with the same name, as long as they have different arguments.
 
 # examples
-The following is an example of the basic operations
+The following is an example of the basic operations `push` and `pop`.
 ```python
 tpq = TieredPriorityQueue()
 
@@ -29,6 +29,7 @@ tpq.pop() # 15
 tpq.pop() # 10
 ```
 
+The following is an example of the `shift` and `split` operations.
 ```python
 tpq = TieredPriorityQueue()
 
@@ -54,32 +55,6 @@ When using `pop`, `peek`, and `shift`, you can iterate over the tiers and find t
 
 
 
-# implementation
-```python
-class TieredPriorityQueue():
-    def __init__(self):
-        self.tiers = []
-    
-    def push(self, tier, value):
-        pass
-    
-    def pop(self):
-        pass
-    
-    def peek(self):
-        pass
-    
-    def shift(self, tier, target):
-        pass
-    
-    def pop(self, tier):
-        pass
-    
-    def peek(self, tier):
-        pass
-    
-    def split(self, tier, key, target):
-        pass
-```
+
 
 
