@@ -1,6 +1,6 @@
 # Welcome dev team! 
 
-I stole this idea from Amir (thanks Amir); but it will provide some tool preliminaries for the project. For this semester, we will be using `.pdf` files initially for lecture slides (we will be transitioning to `.tex` for finals), `.md` files for information and material, and `.py` or `.c` files for the courses. 
+For this semester, we will be using `.pdf` files initially for lecture slides (we will be transitioning to `.tex` for finals), `.md` files for information and material, and `.py` or `.c` files for the courses. 
 
 0. Fork the project to your github account signed in here: `https://github.com/cascino/cp164review/fork`. 
 
